@@ -1,0 +1,338 @@
+// version telephone 
+// entre 385px et 340px
+
+
+@media  screen and (max-width: 1023px) and (min-width: 760px) {
+       /* barre de navigation */
+       header{
+        background-color:#ffffff;
+        height:2.2cm;
+        width:100%;
+        position: fixed;
+        z-index: 4;
+       }
+    
+       .header{
+        background-color:#ffffff;
+        height:2.2cm;
+        width:100%;
+        position: fixed;
+        z-index: 4;
+       }
+    
+        .logo{
+        width: 139px;
+        height: 58px;
+        left: 2rem;
+        position: fixed;
+        z-index: 4;
+        top: 1.5rem;
+        }
+    
+      .logoBurger{
+        position: absolute;
+        left: -8rem;
+    
+    } 
+    
+      header ul {
+      position: relative;
+      top: -2.5rem;
+      right: 8rem;
+      display: flex;
+      list-style-type: none;
+      height:1cm;
+      padding-top:5rem;
+      padding-bottom: 14rem;
+      overflow: hidden;
+          float: right;
+        }
+        
+        li a{
+         margin : 2px;
+         font-size: 17px;
+         padding:17px;
+         color:rgb(64, 56, 56);
+        }
+    
+         
+        li a.active {
+        color: white;
+        background-color: #04AA6D;
+        border: opx solid;
+        border-width: 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        
+        } 
+    
+        li a:hover:not(.active) {
+        background-color: #d6d61e;
+        border-radius: 8px;
+        text-decoration: none;
+        color:rgb(64, 56, 56);
+        }
+    
+        .versionAng{
+        margin-left: 1rem;
+        font-size: 15.5px;
+        color: rgb(64, 56, 56);
+        }
+    
+      .imgAng{
+      position: relative;
+      left :0rem;
+      top:0rem;
+      width:30px;
+      border-radius: 40%;
+      height: 30px;
+        }
+    
+      .fenetreFrancais{
+      position: relative;
+      float: right;
+      left: 94rem;
+      top:8.3rem;
+      width:5cm;
+      height:2cm;
+      background-color: #04AA6D;
+      z-index: 4;
+      transform: translateY(-4.5cm);
+      transition: 0;
+      }
+    
+        .imgAng1{
+        width: 35px;
+        height: 35px;
+        position: relative;
+        left: 1rem;
+        border-radius: 40%;
+        cursor: pointer;
+        }
+     
+        .fenetreFrancais p{
+        position: absolute;
+        left: 7rem;
+        top: 2rem;
+        font-size: 20px;
+        cursor: pointer;
+        }
+    
+
+    .guestBook{
+            position :absolute;
+            top:1.5rem;
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 300rem;
+        
+            h1{
+                position: absolute;
+                top: 11rem;
+                font-size: 30px;
+                color:rgb(11, 9, 9);
+                left: 49rem;
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+            }
+        }
+        
+        .border{
+        @include border(7px, 1.7cm, green, 58.6rem, 18rem);
+    }
+
+    .recommandation{
+        position: absolute;
+        top: 22rem;
+        font-size: 18px;
+        color: black;
+        left: 25.4rem;
+        width: 90rem;
+    }
+    
+    .affichage{
+        position: absolute;
+        top: 50rem;
+        left: 15rem;
+    }
+    
+    .comments {
+    position: absolute;
+    top: 27rem;
+    left: -4rem;
+    text-align: center;
+    width: 90%;
+    height: 150vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    
+        //   ul{
+        //     @extend .comments;
+        //     top: 4rem;
+        //     background-color: rgb(255, 236, 236);
+        //     height: 90vh;
+        //     width: 68vw;
+        //     left: 8rem;
+        //   }
+    
+          h1{
+            font-size: 25px;
+            position: absolute;
+            left: -1.5rem;
+            top: 1rem;
+            width: 20rem;
+            margin-bottom: 5rem;
+          }
+    
+        li{
+        background-color: rgb(156, 206, 7);
+        height: 72%;
+        width: 164%;
+        border-radius: 8px;
+        color: rgb(25, 21, 21);
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 8rem;
+    
+            .a_com{
+                font-size: 22.6px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: rgb(31, 27, 27);
+    
+                    &:hover{
+                        cursor: pointer;
+                        background-color: rgba(156, 206, 7, 0);
+                        color: black;
+                    }
+                }
+    
+                span{
+                    font-size: 15.5px;
+                    color:rgb(15, 70, 5);
+                    font-weight: bold;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+    
+                 p{
+                    font-size: 16px;
+                    color: rgb(52, 47, 47);
+                 }
+            }
+
+        }
+
+        .commentaire{
+            position :absolute;
+            top: 365rem;
+            width: 161%;
+        }
+        
+        #email{
+            @include input(8cm, 15px, 5px, 0, solid, 10rem, 22rem);
+            font-size: 18px;
+            color: black;
+        }
+        
+        #name{
+            @include input(6cm ,15px, 5px, 0, solid, 10rem, 58rem);
+            font-size: 18px;
+            color: black
+        }
+        
+        #coms{
+            @include input(14cm ,15px, 5px, 0, solid, 22rem, 22rem);
+            font-size: 18px;
+            color: black;
+        }
+        
+        #submit{
+            position: absolute;
+            top: 33.6rem;
+            left: 30rem;
+            padding: 9px;
+            font-size: 19.5px;
+            border:0 solid;
+            border-radius: 5px;
+             background-color: rgb(20, 131, 20);
+        }
+
+        footer{
+            position: absolute;
+            top: 405.5rem;
+            background-color: rgba(0, 0, 0, 0.705);
+            width :161%;
+            height: 45rem;
+            padding-bottom: -20rem;
+          }
+          
+          .footer_contact{
+             width: 45%;
+             position: relative;
+             top: 5rem;
+             left: 40%;
+          }
+          
+          .footer_contact h1{
+            font-size: 36px;
+            color: #ffffff;
+            margin-left: 3.8rem;
+          }
+          
+          .mail{
+            font-size: 20px;
+            position: absolute;
+            top: 5rem;
+            left :-0.5rem;
+            color: #ffffff;
+          }
+          
+          .phone{
+            font-size: 20px;
+            position: absolute;
+            top: 8rem;
+            left :-0.5rem;
+            color: #ffffff;
+          }
+          
+          .footer_contact p:nth-last-child(3){
+            font-size: 22px;
+            position: absolute;
+            top: 11.1rem;
+            left :-0.5rem;
+            color: #ffffff;
+          }
+          
+          
+           .icones{
+            position: relative;
+            top: -6rem;
+            left: 3rem;
+           }
+          
+           .border_{
+            position: absolute;
+            top: 17rem;
+            left: 7.2rem;
+            width: 2.6cm;
+            height: 4px;
+            background-color: #ffffff;
+           }
+          
+           .footCopright{
+            position: absolute;
+            top: 39.4rem;
+            width: 100%;
+            height: 1.6cm;
+            background-color: rgba(40, 37, 37, 0.921);
+            font-size: 20px;
+            padding-top: 1.5rem;
+            color: rgb(212, 205, 205);
+           }
+          
+          
+
+                
+}
+
+

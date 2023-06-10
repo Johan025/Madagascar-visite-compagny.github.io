@@ -1,0 +1,22 @@
+.guestBook{
+    position :absolute;
+    top:1.5rem;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300rem;
+
+    h1{
+         position: absolute;
+         top: 9rem;
+         font-size: 50px;
+         color:rgb(11, 9, 9);
+         left: 47rem;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         text-align: center;
+    }
+}
+
+.border{
+@include border(9px, 1.4cm, green, 64rem, 18rem);
+}
+

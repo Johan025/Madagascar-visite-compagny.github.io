@@ -1,0 +1,82 @@
+
+.recommandation{
+    position: absolute;
+    top: 22rem;
+    font-size: 21px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    left: 17rem;
+}
+
+.affichage{
+    position: absolute;
+    top: 50rem;
+    left: 15rem;
+}
+
+.comments {
+      position: relative;
+      top: 25rem;
+      left: 2rem;
+      text-align: center;
+      width: 80vw;
+      height: 150vh;
+      border-radius: 10px;
+      background-color: white;
+
+    //   ul{
+    //     @extend .comments;
+    //     top: 4rem;
+    //     background-color: rgb(255, 236, 236);
+    //     height: 90vh;
+    //     width: 68vw;
+    //     left: 8rem;
+    //   }
+
+      h1{
+        font-size: 25px;
+        position: absolute;
+        left: 4rem;
+        top: 1rem;
+        width: 20rem;
+        margin-bottom: 5rem;
+      }
+
+        li{
+            @extend ul;
+            background-color: rgb(156, 206, 7);
+            height: 72%;
+            width: 80vw;
+            border-radius: 8px;
+            color: rgb(25, 21, 21);
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 8rem;
+
+            .a_com{
+                font-size: 30px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: rgb(31, 27, 27);
+
+                &:hover{
+                    cursor: pointer;
+                    background-color: rgba(156, 206, 7, 0);
+                    color: black;
+                }
+            }
+
+            span{
+                font-size: 18.6px;
+                color:rgb(15, 70, 5);
+                font-weight: bold;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+             p{
+                font-size: 18px;
+                color: rgb(52, 47, 47);
+             }
+        }
+    
+}

@@ -1,0 +1,2221 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(227, 216, 201);
+}
+
+html::-webkit-scrollbar {
+  background-color: rgba(242, 255, 255, 0.966);
+  width: 10px;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 44, 44, 0.555);
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: white;
+  height: 1.8cm;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+}
+
+.header {
+  background-color: white;
+  height: 1.9cm;
+  width: 100%;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+}
+
+.logo {
+  width: 169px;
+  height: 68px;
+  left: 2rem;
+  position: fixed;
+  z-index: 4;
+  top: 1rem;
+}
+
+.logoBurger {
+  position: absolute;
+  left: -8rem;
+}
+
+header ul, header .comments li, .comments header li {
+  position: relative;
+  top: -2.5rem;
+  right: 4rem;
+  display: flex;
+  list-style-type: none;
+  height: 1cm;
+  padding-top: 5rem;
+  padding-bottom: 14rem;
+  overflow: hidden;
+  float: right;
+}
+
+li a {
+  margin: 6px;
+  font-size: 19px;
+  padding: 17px;
+  color: rgb(64, 56, 56);
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+  border: opx solid;
+  border-width: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #d6d61e;
+  border-radius: 8px;
+  text-decoration: none;
+  color: rgb(64, 56, 56);
+}
+
+.versionAng {
+  margin-left: 11rem;
+  font-size: 19px;
+  color: rgb(64, 56, 56);
+}
+
+.imgAng {
+  position: relative;
+  left: 0rem;
+  top: 0rem;
+  width: 30px;
+  border-radius: 40%;
+  height: 30px;
+}
+
+.fenetreFrancais {
+  position: relative;
+  display: none;
+  float: right;
+  left: 94rem;
+  top: 8.3rem;
+  width: 5cm;
+  height: 2cm;
+  background-color: #04AA6D;
+  z-index: 4;
+  transform: translateY(-4.5cm);
+  transition: 0;
+}
+
+.imgAng1 {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: 1rem;
+  border-radius: 40%;
+  cursor: pointer;
+}
+
+.fenetreFrancais p {
+  position: absolute;
+  left: 7rem;
+  top: 2rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.guestBook {
+  position: absolute;
+  top: 1.5rem;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 300rem;
+}
+.guestBook h1 {
+  position: absolute;
+  top: 9rem;
+  font-size: 50px;
+  color: rgb(11, 9, 9);
+  left: 47rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.border {
+  width: 1.4cm;
+  height: 9px;
+  background-color: green;
+  position: absolute;
+  top: 18rem;
+  left: 64rem;
+}
+
+.recommandation {
+  position: absolute;
+  top: 22rem;
+  font-size: 21px;
+  color: black;
+  text-align: center;
+  align-items: center;
+  left: 17rem;
+}
+
+.affichage {
+  position: absolute;
+  top: 50rem;
+  left: 15rem;
+}
+
+.comments {
+  position: relative;
+  top: 25rem;
+  left: 2rem;
+  text-align: center;
+  width: 80vw;
+  height: 150vh;
+  border-radius: 10px;
+  background-color: white;
+}
+.comments h1 {
+  font-size: 25px;
+  position: absolute;
+  left: 4rem;
+  top: 1rem;
+  width: 20rem;
+  margin-bottom: 5rem;
+}
+.comments li {
+  background-color: rgb(156, 206, 7);
+  height: 72%;
+  width: 80vw;
+  border-radius: 8px;
+  color: rgb(25, 21, 21);
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 8rem;
+}
+.comments li .a_com {
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(31, 27, 27);
+}
+.comments li .a_com:hover {
+  cursor: pointer;
+  background-color: rgba(156, 206, 7, 0);
+  color: black;
+}
+.comments li span {
+  font-size: 18.6px;
+  color: rgb(15, 70, 5);
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.comments li p {
+  font-size: 18px;
+  color: rgb(52, 47, 47);
+}
+
+.commentaire {
+  position: relative;
+  top: 320rem;
+  width: 100%;
+  height: 39rem;
+  background-color: rgb(172, 176, 180);
+}
+
+#email {
+  padding: 15px;
+  border-radius: 5px;
+  border: 0 solid;
+  width: 8cm;
+  position: absolute;
+  top: 10rem;
+  left: 25rem;
+  font-size: 18px;
+  color: black;
+}
+
+#name {
+  padding: 15px;
+  border-radius: 5px;
+  border: 0 solid;
+  width: 6cm;
+  position: absolute;
+  top: 10rem;
+  left: 65rem;
+  font-size: 18px;
+  color: black;
+}
+
+#coms {
+  padding: 15px;
+  border-radius: 5px;
+  border: 0 solid;
+  width: 17cm;
+  position: absolute;
+  top: 20rem;
+  left: 24rem;
+  font-size: 18px;
+  color: black;
+}
+
+#submit {
+  position: absolute;
+  top: 31rem;
+  left: 55rem;
+  padding: 9px;
+  font-size: 19.5px;
+  border: 0 solid;
+  border-radius: 5px;
+  background-color: rgb(20, 131, 20);
+}
+
+footer {
+  position: relative;
+  top: 460.4rem;
+  background-color: rgba(0, 0, 0, 0.705);
+  width: 100%;
+  height: 55vh;
+}
+
+.footer_contact {
+  width: 45%;
+  position: relative;
+  top: 5rem;
+  left: 40%;
+}
+
+.footer_contact h1 {
+  font-size: 36px;
+  color: #ffffff;
+  margin-left: 3.8rem;
+}
+
+.mail {
+  font-size: 20px;
+  position: absolute;
+  top: 5rem;
+  left: -0.5rem;
+  color: #ffffff;
+}
+
+.phone {
+  font-size: 20px;
+  position: absolute;
+  top: 8rem;
+  left: -0.5rem;
+  color: #ffffff;
+}
+
+.footer_contact p:nth-last-child(3) {
+  font-size: 22px;
+  position: absolute;
+  top: 11.1rem;
+  left: -0.5rem;
+  color: #ffffff;
+}
+
+div.icones img:nth-last-child(1) {
+  position: absolute;
+  top: 20rem;
+  left: 0rem;
+}
+
+.img_fb {
+  position: absolute;
+  top: 0rem;
+  left: 7rem;
+}
+
+div.icones img:nth-last-child(3) {
+  position: absolute;
+  top: 20rem;
+  left: 14rem;
+}
+
+.icones {
+  position: relative;
+  top: -6rem;
+  left: 3rem;
+}
+
+.border_ {
+  position: absolute;
+  top: 17rem;
+  left: 7.2rem;
+  width: 2.6cm;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.footCopright {
+  position: absolute;
+  top: 34.4rem;
+  width: 100%;
+  height: 1.6cm;
+  background-color: rgba(40, 37, 37, 0.921);
+  font-size: 20px;
+  padding-top: 1.5rem;
+  color: rgb(212, 205, 205);
+}
+
+@media screen and (max-width: 382px) and (min-width: 374px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+  }
+  header ul, header .comments li, .comments header li {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 8.1rem;
+    align-items: center;
+    justify-content: center;
+    top: 0rem;
+    padding-bottom: 14.5cm;
+  }
+  header ul li, header .comments li li, .comments header li li {
+    margin: 29px;
+  }
+  .logo {
+    position: fixed;
+    top: 1rem;
+    left: 3rem;
+    width: 3.6cm;
+    height: 1.7cm;
+    z-index: 6;
+  }
+  .header {
+    position: absolute;
+    top: 7.78rem;
+    transform: translateY(-100rem);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9450980392);
+    z-index: 4;
+    transition: 1s;
+  }
+  .versionAng {
+    margin: 7rem;
+    position: absolute;
+    top: 34rem;
+    left: 1.5rem;
+  }
+  #ang {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+  }
+  .logoBurger i {
+    font-size: 36px;
+    position: absolute;
+    float: right;
+    left: 40rem;
+    top: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+  }
+  .guestBook {
+    position: absolute;
+    top: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300rem;
+  }
+  .guestBook h1 {
+    position: absolute;
+    top: 11rem;
+    font-size: 30px;
+    color: rgb(11, 9, 9);
+    left: 2rem;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  .border {
+    width: 1.7cm;
+    height: 7px;
+    background-color: green;
+    position: absolute;
+    top: 18rem;
+    left: 4.6rem;
+  }
+  .recommandation {
+    position: absolute;
+    top: 22rem;
+    font-size: 18px;
+    color: black;
+    left: 0.4rem;
+  }
+  .affichage {
+    position: absolute;
+    top: 50rem;
+    left: 15rem;
+  }
+  .comments {
+    position: absolute;
+    top: 27rem;
+    left: -10rem;
+    text-align: center;
+    width: 90%;
+    height: 150vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .comments h1 {
+    font-size: 25px;
+    position: absolute;
+    left: -1.5rem;
+    top: 1rem;
+    width: 20rem;
+    margin-bottom: 5rem;
+  }
+  .comments li {
+    background-color: rgb(156, 206, 7);
+    height: 72%;
+    width: 114%;
+    border-radius: 8px;
+    color: rgb(25, 21, 21);
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 8rem;
+  }
+  .comments li .a_com {
+    font-size: 22.6px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(31, 27, 27);
+  }
+  .comments li .a_com:hover {
+    cursor: pointer;
+    background-color: rgba(156, 206, 7, 0);
+    color: black;
+  }
+  .comments li span {
+    font-size: 15.5px;
+    color: rgb(15, 70, 5);
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .comments li p {
+    font-size: 16px;
+    color: rgb(52, 47, 47);
+  }
+  .commentaire {
+    position: absolute;
+    top: 655rem;
+  }
+  #email {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 8cm;
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #name {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 6cm;
+    position: absolute;
+    top: 16rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #coms {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 9cm;
+    position: absolute;
+    top: 24rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #submit {
+    position: absolute;
+    top: 33.6rem;
+    left: 3rem;
+    padding: 9px;
+    font-size: 19.5px;
+    border: 0 solid;
+    border-radius: 5px;
+    background-color: rgb(20, 131, 20);
+  }
+  footer {
+    position: absolute;
+    top: 695.5rem;
+    height: 48.85rem;
+  }
+  .footer_contact h1 {
+    position: absolute;
+    left: -9rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: absolute;
+    top: 5rem;
+    left: 40%;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 7rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 19px;
+    position: absolute;
+    top: 10rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 18px;
+    position: absolute;
+    top: 13.1rem;
+    left: -13rem;
+    color: #ffffff;
+  }
+  .icones {
+    position: relative;
+    top: 2rem;
+    left: -7rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 19rem;
+    left: -2.8rem;
+  }
+  .footCopright {
+    position: absolute;
+    top: 48.8rem;
+    width: 100%;
+    height: 3.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 18px;
+    padding-top: 1.5rem;
+    color: rgb(212, 205, 205);
+  }
+}
+@media screen and (max-width: 381px) and (min-width: 375px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+  }
+  header ul, header .comments li, .comments header li {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 8.1rem;
+    align-items: center;
+    justify-content: center;
+    top: 0rem;
+    padding-bottom: 14.5cm;
+  }
+  header ul li, header .comments li li, .comments header li li {
+    margin: 29px;
+  }
+  .logo {
+    position: fixed;
+    top: 1rem;
+    left: 3rem;
+    width: 3.6cm;
+    height: 1.7cm;
+    z-index: 6;
+  }
+  .header {
+    position: absolute;
+    top: 7.78rem;
+    transform: translateY(-100rem);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9450980392);
+    z-index: 4;
+    transition: 1s;
+  }
+  .versionAng {
+    margin: 7rem;
+    position: absolute;
+    top: 34rem;
+    left: 1.5rem;
+  }
+  #ang {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+  }
+  .logoBurger i {
+    font-size: 36px;
+    position: absolute;
+    float: right;
+    left: 37.4rem;
+    top: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+  }
+  .guestBook {
+    position: absolute;
+    top: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300rem;
+  }
+  .guestBook h1 {
+    position: absolute;
+    top: 11rem;
+    font-size: 30px;
+    color: rgb(11, 9, 9);
+    left: 2rem;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  .border {
+    width: 1.7cm;
+    height: 7px;
+    background-color: green;
+    position: absolute;
+    top: 18rem;
+    left: 4.6rem;
+  }
+  .recommandation {
+    position: absolute;
+    top: 22rem;
+    font-size: 18px;
+    color: black;
+    left: 0.4rem;
+  }
+  .affichage {
+    position: absolute;
+    top: 50rem;
+    left: 15rem;
+  }
+  .comments {
+    position: absolute;
+    top: 27rem;
+    left: -10rem;
+    text-align: center;
+    width: 90%;
+    height: 150vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .comments h1 {
+    font-size: 25px;
+    position: absolute;
+    left: -1.5rem;
+    top: 1rem;
+    width: 20rem;
+    margin-bottom: 5rem;
+  }
+  .comments li {
+    background-color: rgb(156, 206, 7);
+    height: 72%;
+    width: 114%;
+    border-radius: 8px;
+    color: rgb(25, 21, 21);
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 8rem;
+  }
+  .comments li .a_com {
+    font-size: 22.6px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(31, 27, 27);
+  }
+  .comments li .a_com:hover {
+    cursor: pointer;
+    background-color: rgba(156, 206, 7, 0);
+    color: black;
+  }
+  .comments li span {
+    font-size: 15.5px;
+    color: rgb(15, 70, 5);
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .comments li p {
+    font-size: 16px;
+    color: rgb(52, 47, 47);
+  }
+  .commentaire {
+    position: absolute;
+    top: 725rem;
+  }
+  #email {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 8cm;
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #name {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 6cm;
+    position: absolute;
+    top: 16rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #coms {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 9cm;
+    position: absolute;
+    top: 24rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #submit {
+    position: absolute;
+    top: 33.6rem;
+    left: 3rem;
+    padding: 9px;
+    font-size: 19.5px;
+    border: 0 solid;
+    border-radius: 5px;
+    background-color: rgb(20, 131, 20);
+  }
+  footer {
+    position: absolute;
+    top: 765.5rem;
+    height: 48.85rem;
+  }
+  .footer_contact h1 {
+    position: absolute;
+    left: -9rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: absolute;
+    top: 5rem;
+    left: 40%;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 7rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 19px;
+    position: absolute;
+    top: 10rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 18px;
+    position: absolute;
+    top: 13.1rem;
+    left: -13rem;
+    color: #ffffff;
+  }
+  .icones {
+    position: relative;
+    top: 2rem;
+    left: -7rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 19rem;
+    left: -2.8rem;
+  }
+  .footCopright {
+    position: absolute;
+    top: 48.8rem;
+    width: 100%;
+    height: 3.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 18px;
+    padding-top: 1.5rem;
+    color: rgb(212, 205, 205);
+  }
+}
+@media screen and (max-width: 374px) and (min-width: 340px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+  }
+  header ul, header .comments li, .comments header li {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 1.1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: -1rem;
+    padding-bottom: 14.5cm;
+  }
+  header ul li, header .comments li li, .comments header li li {
+    margin: 29px;
+  }
+  .logo {
+    position: fixed;
+    top: 1rem;
+    left: 3rem;
+    width: 3.6cm;
+    height: 1.7cm;
+    z-index: 6;
+  }
+  .header {
+    position: absolute;
+    top: 7.78rem;
+    transform: translateY(-100rem);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9450980392);
+    z-index: 4;
+    transition: 1s;
+  }
+  .versionAng {
+    margin: 7rem;
+    position: absolute;
+    top: 34rem;
+    left: 1.5rem;
+  }
+  #ang {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+  }
+  .logoBurger i {
+    font-size: 36px;
+    position: absolute;
+    float: right;
+    left: 35.5rem;
+    top: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+  }
+  .guestBook {
+    position: absolute;
+    top: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300rem;
+  }
+  .guestBook h1 {
+    position: absolute;
+    top: 11rem;
+    font-size: 30px;
+    color: rgb(11, 9, 9);
+    left: 2rem;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  .border {
+    width: 1.7cm;
+    height: 7px;
+    background-color: green;
+    position: absolute;
+    top: 18rem;
+    left: 4.6rem;
+  }
+  .recommandation {
+    position: absolute;
+    top: 22rem;
+    font-size: 18px;
+    color: black;
+    left: 0.4rem;
+  }
+  .affichage {
+    position: absolute;
+    top: 50rem;
+    left: 15rem;
+  }
+  .comments {
+    position: absolute;
+    top: 27rem;
+    left: -10rem;
+    text-align: center;
+    width: 90%;
+    height: 150vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .comments h1 {
+    font-size: 25px;
+    position: absolute;
+    left: -1.5rem;
+    top: 1rem;
+    width: 20rem;
+    margin-bottom: 5rem;
+  }
+  .comments li {
+    background-color: rgb(156, 206, 7);
+    height: 72%;
+    width: 114%;
+    border-radius: 8px;
+    color: rgb(25, 21, 21);
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 8rem;
+  }
+  .comments li .a_com {
+    font-size: 22.6px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(31, 27, 27);
+  }
+  .comments li .a_com:hover {
+    cursor: pointer;
+    background-color: rgba(156, 206, 7, 0);
+    color: black;
+  }
+  .comments li span {
+    font-size: 15.5px;
+    color: rgb(15, 70, 5);
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .comments li p {
+    font-size: 16px;
+    color: rgb(52, 47, 47);
+  }
+  .commentaire {
+    position: absolute;
+    top: 735rem;
+  }
+  #email {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 8cm;
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #name {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 6cm;
+    position: absolute;
+    top: 16rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #coms {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 8cm;
+    position: absolute;
+    top: 24rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #submit {
+    position: absolute;
+    top: 33.6rem;
+    left: 3rem;
+    padding: 9px;
+    font-size: 19.5px;
+    border: 0 solid;
+    border-radius: 5px;
+    background-color: rgb(20, 131, 20);
+  }
+  footer {
+    position: absolute;
+    top: 775.5rem;
+    height: 48.85rem;
+  }
+  .footer_contact h1 {
+    position: absolute;
+    left: -9rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: absolute;
+    top: 5rem;
+    left: 40%;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 7rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 19px;
+    position: absolute;
+    top: 10rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 18px;
+    position: absolute;
+    top: 13.1rem;
+    left: -13rem;
+    color: #ffffff;
+  }
+  .icones {
+    position: relative;
+    top: 2rem;
+    left: -7rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 19rem;
+    left: -2.8rem;
+  }
+  .footCopright {
+    position: absolute;
+    top: 48.8rem;
+    width: 100%;
+    height: 3.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 18px;
+    padding-top: 1.5rem;
+    color: rgb(212, 205, 205);
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 760px) {
+  /* barre de navigation */
+  header {
+    background-color: #ffffff;
+    height: 2.2cm;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+  }
+  .header {
+    background-color: #ffffff;
+    height: 2.2cm;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+  }
+  .logo {
+    width: 139px;
+    height: 58px;
+    left: 2rem;
+    position: fixed;
+    z-index: 4;
+    top: 1.5rem;
+  }
+  .logoBurger {
+    position: absolute;
+    left: -8rem;
+  }
+  header ul, header .comments li, .comments header li {
+    position: relative;
+    top: -2.5rem;
+    right: 8rem;
+    display: flex;
+    list-style-type: none;
+    height: 1cm;
+    padding-top: 5rem;
+    padding-bottom: 14rem;
+    overflow: hidden;
+    float: right;
+  }
+  li a {
+    margin: 2px;
+    font-size: 17px;
+    padding: 17px;
+    color: rgb(64, 56, 56);
+  }
+  li a.active {
+    color: white;
+    background-color: #04AA6D;
+    border: opx solid;
+    border-width: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #d6d61e;
+    border-radius: 8px;
+    text-decoration: none;
+    color: rgb(64, 56, 56);
+  }
+  .versionAng {
+    margin-left: 1rem;
+    font-size: 15.5px;
+    color: rgb(64, 56, 56);
+  }
+  .imgAng {
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+    width: 30px;
+    border-radius: 40%;
+    height: 30px;
+  }
+  .fenetreFrancais {
+    position: relative;
+    float: right;
+    left: 94rem;
+    top: 8.3rem;
+    width: 5cm;
+    height: 2cm;
+    background-color: #04AA6D;
+    z-index: 4;
+    transform: translateY(-4.5cm);
+    transition: 0;
+  }
+  .imgAng1 {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 1rem;
+    border-radius: 40%;
+    cursor: pointer;
+  }
+  .fenetreFrancais p {
+    position: absolute;
+    left: 7rem;
+    top: 2rem;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .guestBook {
+    position: absolute;
+    top: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300rem;
+  }
+  .guestBook h1 {
+    position: absolute;
+    top: 11rem;
+    font-size: 30px;
+    color: rgb(11, 9, 9);
+    left: 49rem;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  .border {
+    width: 1.7cm;
+    height: 7px;
+    background-color: green;
+    position: absolute;
+    top: 18rem;
+    left: 58.6rem;
+  }
+  .recommandation {
+    position: absolute;
+    top: 22rem;
+    font-size: 18px;
+    color: black;
+    left: 25.4rem;
+    width: 90rem;
+  }
+  .affichage {
+    position: absolute;
+    top: 50rem;
+    left: 15rem;
+  }
+  .comments {
+    position: absolute;
+    top: 27rem;
+    left: -4rem;
+    text-align: center;
+    width: 90%;
+    height: 150vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .comments h1 {
+    font-size: 25px;
+    position: absolute;
+    left: -1.5rem;
+    top: 1rem;
+    width: 20rem;
+    margin-bottom: 5rem;
+  }
+  .comments li {
+    background-color: rgb(156, 206, 7);
+    height: 72%;
+    width: 164%;
+    border-radius: 8px;
+    color: rgb(25, 21, 21);
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 8rem;
+  }
+  .comments li .a_com {
+    font-size: 22.6px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(31, 27, 27);
+  }
+  .comments li .a_com:hover {
+    cursor: pointer;
+    background-color: rgba(156, 206, 7, 0);
+    color: black;
+  }
+  .comments li span {
+    font-size: 15.5px;
+    color: rgb(15, 70, 5);
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .comments li p {
+    font-size: 16px;
+    color: rgb(52, 47, 47);
+  }
+  .commentaire {
+    position: absolute;
+    top: 365rem;
+    width: 161%;
+  }
+  #email {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 8cm;
+    position: absolute;
+    top: 10rem;
+    left: 22rem;
+    font-size: 18px;
+    color: black;
+  }
+  #name {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 6cm;
+    position: absolute;
+    top: 10rem;
+    left: 58rem;
+    font-size: 18px;
+    color: black;
+  }
+  #coms {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 14cm;
+    position: absolute;
+    top: 22rem;
+    left: 22rem;
+    font-size: 18px;
+    color: black;
+  }
+  #submit {
+    position: absolute;
+    top: 33.6rem;
+    left: 30rem;
+    padding: 9px;
+    font-size: 19.5px;
+    border: 0 solid;
+    border-radius: 5px;
+    background-color: rgb(20, 131, 20);
+  }
+  footer {
+    position: absolute;
+    top: 405.5rem;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 161%;
+    height: 45rem;
+    padding-bottom: -20rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: relative;
+    top: 5rem;
+    left: 40%;
+  }
+  .footer_contact h1 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-left: 3.8rem;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 5rem;
+    left: -0.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 20px;
+    position: absolute;
+    top: 8rem;
+    left: -0.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 22px;
+    position: absolute;
+    top: 11.1rem;
+    left: -0.5rem;
+    color: #ffffff;
+  }
+  .icones {
+    position: relative;
+    top: -6rem;
+    left: 3rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 17rem;
+    left: 7.2rem;
+    width: 2.6cm;
+    height: 4px;
+    background-color: #ffffff;
+  }
+  .footCopright {
+    position: absolute;
+    top: 39.4rem;
+    width: 100%;
+    height: 1.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 20px;
+    padding-top: 1.5rem;
+    color: rgb(212, 205, 205);
+  }
+}
+@media screen and (max-width: 759px) and (min-width: 580px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+  }
+  header ul, header .comments li, .comments header li {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 3.1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 0rem;
+    padding-bottom: 14.5cm;
+  }
+  header ul li, header .comments li li, .comments header li li {
+    margin: 29px;
+  }
+  .logo {
+    position: fixed;
+    top: 1rem;
+    left: 3rem;
+    width: 3.6cm;
+    height: 1.7cm;
+    z-index: 6;
+  }
+  .header {
+    position: absolute;
+    top: 7.78rem;
+    transform: translateY(-140rem);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9450980392);
+    z-index: 4;
+    transition: 1s;
+  }
+  .versionAng {
+    margin-top: 9rem;
+    position: absolute;
+    top: 34rem;
+    left: 11.5rem;
+  }
+  #ang {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+  }
+  .logoBurger i {
+    font-size: 36px;
+    position: absolute;
+    float: right;
+    left: 57.3rem;
+    top: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+  }
+  .guestBook {
+    position: absolute;
+    top: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300rem;
+  }
+  .guestBook h1 {
+    position: absolute;
+    top: 11rem;
+    font-size: 30px;
+    color: rgb(11, 9, 9);
+    left: 2rem;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  .border {
+    width: 1.7cm;
+    height: 7px;
+    background-color: green;
+    position: absolute;
+    top: 18rem;
+    left: 4.6rem;
+  }
+  .recommandation {
+    position: absolute;
+    top: 22rem;
+    font-size: 18px;
+    color: black;
+    left: 0.4rem;
+  }
+  .affichage {
+    position: absolute;
+    top: 50rem;
+    left: 15rem;
+  }
+  .comments {
+    position: absolute;
+    top: 27rem;
+    left: -10rem;
+    text-align: center;
+    width: 90%;
+    height: 150vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .comments h1 {
+    font-size: 25px;
+    position: absolute;
+    left: -1.5rem;
+    top: 1rem;
+    width: 20rem;
+    margin-bottom: 5rem;
+  }
+  .comments li {
+    background-color: rgb(156, 206, 7);
+    height: 72%;
+    width: 114%;
+    border-radius: 8px;
+    color: rgb(25, 21, 21);
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 8rem;
+  }
+  .comments li .a_com {
+    font-size: 22.6px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(31, 27, 27);
+  }
+  .comments li .a_com:hover {
+    cursor: pointer;
+    background-color: rgba(156, 206, 7, 0);
+    color: black;
+  }
+  .comments li span {
+    font-size: 15.5px;
+    color: rgb(15, 70, 5);
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .comments li p {
+    font-size: 16px;
+    color: rgb(52, 47, 47);
+  }
+  .commentaire {
+    position: absolute;
+    top: 495rem;
+  }
+  #email {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 8cm;
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #name {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 6cm;
+    position: absolute;
+    top: 16rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #coms {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 9cm;
+    position: absolute;
+    top: 24rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #submit {
+    position: absolute;
+    top: 33.6rem;
+    left: 3rem;
+    padding: 9px;
+    font-size: 19.5px;
+    border: 0 solid;
+    border-radius: 5px;
+    background-color: rgb(20, 131, 20);
+  }
+  footer {
+    position: absolute;
+    top: 535.5rem;
+    height: 48.85rem;
+  }
+  .footer_contact h1 {
+    position: absolute;
+    left: -9rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: absolute;
+    top: 5rem;
+    left: 40%;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 7rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 19px;
+    position: absolute;
+    top: 10rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 18px;
+    position: absolute;
+    top: 13.1rem;
+    left: -13rem;
+    color: #ffffff;
+  }
+  .icones {
+    position: relative;
+    top: 2rem;
+    left: -7rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 19rem;
+    left: -2.8rem;
+  }
+  .footCopright {
+    position: absolute;
+    top: 48.8rem;
+    width: 100%;
+    height: 3.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 18px;
+    padding-top: 1.5rem;
+    color: rgb(212, 205, 205);
+  }
+}
+@media screen and (max-width: 410px) and (min-width: 383px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+  }
+  header ul, header .comments li, .comments header li {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 8.1rem;
+    align-items: center;
+    justify-content: center;
+    top: 0rem;
+    padding-bottom: 14.5cm;
+  }
+  header ul li, header .comments li li, .comments header li li {
+    margin: 29px;
+  }
+  .logo {
+    position: fixed;
+    top: 1rem;
+    left: 3rem;
+    width: 3.6cm;
+    height: 1.7cm;
+    z-index: 6;
+  }
+  .header {
+    position: absolute;
+    top: 7.78rem;
+    transform: translateY(-100rem);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9450980392);
+    z-index: 4;
+    transition: 1s;
+  }
+  .versionAng {
+    margin: 7rem;
+    position: absolute;
+    top: 34rem;
+    left: 1.5rem;
+  }
+  #ang {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+  }
+  .logoBurger i {
+    font-size: 36px;
+    position: absolute;
+    float: right;
+    left: 37.4rem;
+    top: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+  }
+  .guestBook {
+    position: absolute;
+    top: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300rem;
+  }
+  .guestBook h1 {
+    position: absolute;
+    top: 11rem;
+    font-size: 30px;
+    color: rgb(11, 9, 9);
+    left: 2rem;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  .border {
+    width: 1.7cm;
+    height: 7px;
+    background-color: green;
+    position: absolute;
+    top: 18rem;
+    left: 4.6rem;
+  }
+  .recommandation {
+    position: absolute;
+    top: 22rem;
+    font-size: 18px;
+    color: black;
+    left: 0.4rem;
+  }
+  .affichage {
+    position: absolute;
+    top: 50rem;
+    left: 15rem;
+  }
+  .comments {
+    position: absolute;
+    top: 27rem;
+    left: -10rem;
+    text-align: center;
+    width: 90%;
+    height: 150vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .comments h1 {
+    font-size: 25px;
+    position: absolute;
+    left: -1.5rem;
+    top: 1rem;
+    width: 20rem;
+    margin-bottom: 5rem;
+  }
+  .comments li {
+    background-color: rgb(156, 206, 7);
+    height: 72%;
+    width: 114%;
+    border-radius: 8px;
+    color: rgb(25, 21, 21);
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 8rem;
+  }
+  .comments li .a_com {
+    font-size: 22.6px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(31, 27, 27);
+  }
+  .comments li .a_com:hover {
+    cursor: pointer;
+    background-color: rgba(156, 206, 7, 0);
+    color: black;
+  }
+  .comments li span {
+    font-size: 15.5px;
+    color: rgb(15, 70, 5);
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .comments li p {
+    font-size: 16px;
+    color: rgb(52, 47, 47);
+  }
+  .commentaire {
+    position: absolute;
+    top: 690.5rem;
+  }
+  #email {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 8cm;
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #name {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 6cm;
+    position: absolute;
+    top: 16rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #coms {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 9cm;
+    position: absolute;
+    top: 24rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #submit {
+    position: absolute;
+    top: 33.6rem;
+    left: 3rem;
+    padding: 9px;
+    font-size: 19.5px;
+    border: 0 solid;
+    border-radius: 5px;
+    background-color: rgb(20, 131, 20);
+  }
+  footer {
+    position: absolute;
+    top: 731rem;
+    height: 48.85rem;
+  }
+  .footer_contact h1 {
+    position: absolute;
+    left: -9rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: absolute;
+    top: 5rem;
+    left: 40%;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 7rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 19px;
+    position: absolute;
+    top: 10rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 18px;
+    position: absolute;
+    top: 13.1rem;
+    left: -13rem;
+    color: #ffffff;
+  }
+  .icones {
+    position: relative;
+    top: 2rem;
+    left: -7rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 19rem;
+    left: -2.8rem;
+  }
+  .footCopright {
+    position: absolute;
+    top: 48.8rem;
+    width: 100%;
+    height: 3.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 18px;
+    padding-top: 1.5rem;
+    color: rgb(212, 205, 205);
+  }
+}
+@media screen and (max-width: 579px) and (min-width: 411px) {
+  header {
+    position: fixed;
+    width: 100%;
+    height: 2cm;
+    background-color: #ffffff;
+  }
+  header ul, header .comments li, .comments header li {
+    display: block;
+    z-index: 4;
+    position: absolute;
+    left: 8.1rem;
+    align-items: center;
+    justify-content: center;
+    top: 0rem;
+    padding-bottom: 14.5cm;
+  }
+  header ul li, header .comments li li, .comments header li li {
+    margin: 29px;
+  }
+  .logo {
+    position: fixed;
+    top: 1rem;
+    left: 3rem;
+    width: 3.6cm;
+    height: 1.7cm;
+    z-index: 6;
+  }
+  .header {
+    position: absolute;
+    top: 7.78rem;
+    transform: translateY(-100rem);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9450980392);
+    z-index: 4;
+    transition: 1s;
+  }
+  .versionAng {
+    margin: 7rem;
+    position: absolute;
+    top: 34rem;
+    left: 1.5rem;
+  }
+  #ang {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+  }
+  .logoBurger i {
+    font-size: 36px;
+    position: absolute;
+    float: right;
+    left: 37.4rem;
+    top: 1.5rem;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1.5px solid black;
+    z-index: -4;
+    color: black;
+  }
+  .logoBurger i:hover {
+    border: 0px solid #1ed661;
+    background-color: #1ed640;
+  }
+  .hideshow {
+    transform: translateY(-0.2rem);
+    transition: 0.5s;
+  }
+  .guestBook {
+    position: absolute;
+    top: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300rem;
+  }
+  .guestBook h1 {
+    position: absolute;
+    top: 11rem;
+    font-size: 30px;
+    color: rgb(11, 9, 9);
+    left: 2rem;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  .border {
+    width: 1.7cm;
+    height: 7px;
+    background-color: green;
+    position: absolute;
+    top: 18rem;
+    left: 4.6rem;
+  }
+  .recommandation {
+    position: absolute;
+    top: 22rem;
+    font-size: 18px;
+    color: black;
+    left: 0.4rem;
+  }
+  .affichage {
+    position: absolute;
+    top: 50rem;
+    left: 15rem;
+  }
+  .comments {
+    position: absolute;
+    top: 27rem;
+    left: -10rem;
+    text-align: center;
+    width: 90%;
+    height: 150vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .comments h1 {
+    font-size: 25px;
+    position: absolute;
+    left: -1.5rem;
+    top: 1rem;
+    width: 20rem;
+    margin-bottom: 5rem;
+  }
+  .comments li {
+    background-color: rgb(156, 206, 7);
+    height: 72%;
+    width: 114%;
+    border-radius: 8px;
+    color: rgb(25, 21, 21);
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 8rem;
+  }
+  .comments li .a_com {
+    font-size: 22.6px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(31, 27, 27);
+  }
+  .comments li .a_com:hover {
+    cursor: pointer;
+    background-color: rgba(156, 206, 7, 0);
+    color: black;
+  }
+  .comments li span {
+    font-size: 15.5px;
+    color: rgb(15, 70, 5);
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .comments li p {
+    font-size: 16px;
+    color: rgb(52, 47, 47);
+  }
+  .commentaire {
+    position: absolute;
+    top: 655rem;
+  }
+  #email {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 8cm;
+    position: absolute;
+    top: 8rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #name {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 6cm;
+    position: absolute;
+    top: 16rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #coms {
+    padding: 15px;
+    border-radius: 5px;
+    border: 0 solid;
+    width: 9cm;
+    position: absolute;
+    top: 24rem;
+    left: 2rem;
+    font-size: 18px;
+    color: black;
+  }
+  #submit {
+    position: absolute;
+    top: 33.6rem;
+    left: 3rem;
+    padding: 9px;
+    font-size: 19.5px;
+    border: 0 solid;
+    border-radius: 5px;
+    background-color: rgb(20, 131, 20);
+  }
+  footer {
+    position: absolute;
+    top: 695.5rem;
+    height: 48.85rem;
+  }
+  .footer_contact h1 {
+    position: absolute;
+    left: -9rem;
+  }
+  .footer_contact {
+    width: 45%;
+    position: absolute;
+    top: 5rem;
+    left: 40%;
+  }
+  .mail {
+    font-size: 20px;
+    position: absolute;
+    top: 7rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .phone {
+    font-size: 19px;
+    position: absolute;
+    top: 10rem;
+    left: -13.5rem;
+    color: #ffffff;
+  }
+  .footer_contact p:nth-last-child(3) {
+    font-size: 18px;
+    position: absolute;
+    top: 13.1rem;
+    left: -13rem;
+    color: #ffffff;
+  }
+  .icones {
+    position: relative;
+    top: 2rem;
+    left: -7rem;
+  }
+  .border_ {
+    position: absolute;
+    top: 19rem;
+    left: -2.8rem;
+  }
+  .footCopright {
+    position: absolute;
+    top: 48.8rem;
+    width: 100%;
+    height: 3.6cm;
+    background-color: rgba(40, 37, 37, 0.921);
+    font-size: 18px;
+    padding-top: 1.5rem;
+    color: rgb(212, 205, 205);
+  }
+}
+
+/*# sourceMappingURL=guestBook.css.map */

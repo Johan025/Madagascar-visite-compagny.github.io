@@ -1,0 +1,290 @@
+@media  screen and (max-width: 759px) and (min-width: 580px) {
+    header{
+        position: fixed;
+        width: 100%;
+        height: 2cm;
+        background-color: #ffffff;
+
+          ul{
+            display: block;
+            z-index: 4;
+            position: absolute;
+            left: 3.1rem;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            top: -0rem;
+            padding-bottom: 14.5cm;
+
+             li{
+                margin: 29px;
+                }
+            }
+        }
+        
+        .logo{
+        position: fixed;
+        top: 1rem;
+        left: 3rem;
+        width: 3.6cm;
+        height: 1.7cm;
+        z-index: 6;
+        }
+        
+         
+        .header{
+          position :absolute;
+          top: 7.78rem;
+          transform: translateY(-140rem);
+          width: 100%;
+          height: 100vh;
+          background-color: #fffffff1;
+          z-index: 4;
+          transition : 1s;
+          }
+          
+          .versionAng{
+          margin-top: 9rem;
+          position: absolute;
+          top: 34rem;
+          left: 11.5rem;
+          }
+        
+          #ang{
+            cursor: pointer;
+            position: absolute;
+            top:0;
+          }
+          
+          .logoBurger i{
+          font-size: 36px;
+          position: absolute;
+          float: right; 
+          left: 57.3rem;
+          top: 1.5rem;
+          border-radius: 50%;
+          padding: 7px;
+          border: 1.5px solid black;
+          z-index: -4;
+          color:black;
+
+          &:hover{
+            border: 0px solid #1ed661;
+            background-color: #1ed640;
+          }
+          
+          }
+        
+         
+          .hideshow{
+            transform: translateY(-0.2rem);
+            transition: 0.5s;
+          }
+
+    .guestBook{
+            position :absolute;
+            top:1.5rem;
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 300rem;
+        
+            h1{
+                position: absolute;
+                top: 11rem;
+                font-size: 30px;
+                color:rgb(11, 9, 9);
+                left: 2rem;
+                text-align: center;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+            }
+        }
+        
+        .border{
+        @include border(7px, 1.7cm, green, 4.6rem, 18rem);
+    }
+
+    .recommandation{
+        position: absolute;
+        top: 22rem;
+        font-size: 18px;
+        color: black;
+        left: .4rem;
+    }
+    
+    .affichage{
+        position: absolute;
+        top: 50rem;
+        left: 15rem;
+    }
+    
+    .comments {
+    position: absolute;
+    top: 27rem;
+    left: -10rem;
+    text-align: center;
+    width: 90%;
+    height: 150vh;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    
+        //   ul{
+        //     @extend .comments;
+        //     top: 4rem;
+        //     background-color: rgb(255, 236, 236);
+        //     height: 90vh;
+        //     width: 68vw;
+        //     left: 8rem;
+        //   }
+    
+          h1{
+            font-size: 25px;
+            position: absolute;
+            left: -1.5rem;
+            top: 1rem;
+            width: 20rem;
+            margin-bottom: 5rem;
+          }
+    
+        li{
+        background-color: rgb(156, 206, 7);
+        height: 72%;
+        width: 114%;
+        border-radius: 8px;
+        color: rgb(25, 21, 21);
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 8rem;
+    
+            .a_com{
+                font-size: 22.6px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: rgb(31, 27, 27);
+    
+                    &:hover{
+                        cursor: pointer;
+                        background-color: rgba(156, 206, 7, 0);
+                        color: black;
+                    }
+                }
+    
+                span{
+                    font-size: 15.5px;
+                    color:rgb(15, 70, 5);
+                    font-weight: bold;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+    
+                 p{
+                    font-size: 16px;
+                    color: rgb(52, 47, 47);
+                 }
+            }
+
+        }
+
+        .commentaire{
+            position :absolute;
+            top: 495rem;
+        }
+        
+        #email{
+            @include input(8cm, 15px, 5px, 0, solid, 8rem, 2rem);
+            font-size: 18px;
+            color: black;
+        }
+        
+        #name{
+            @include input(6cm ,15px, 5px, 0, solid, 16rem, 2rem);
+            font-size: 18px;
+            color: black
+        }
+        
+        #coms{
+            @include input(9cm ,15px, 5px, 0, solid, 24rem, 2rem);
+            font-size: 18px;
+            color: black;
+        }
+        
+        #submit{
+            position: absolute;
+            top: 33.6rem;
+            left: 3rem;
+            padding: 9px;
+            font-size: 19.5px;
+            border:0 solid;
+            border-radius: 5px;
+             background-color: rgb(20, 131, 20);
+        }
+
+        footer{
+            position: absolute;
+            top: 535.5rem;
+            height: 48.85rem;
+          }
+     
+     
+       .footer_contact h1{
+         position: absolute;
+         left: -9rem;
+       }
+     
+       .footer_contact{
+         width: 45%;
+         position: absolute;
+         top: 5rem;
+         left: 40%;
+      }
+      
+      .mail{
+        font-size: 20px;
+        position: absolute;
+        top: 7rem;
+        left :-13.5rem;
+        color: #ffffff;
+      }
+      
+      .phone{
+        font-size: 19px;
+        position: absolute;
+        top: 10rem;
+        left :-13.5rem;
+        color: #ffffff;
+      }
+      
+      .footer_contact p:nth-last-child(3){
+        font-size: 18px;
+        position: absolute;
+        top: 13.1rem;
+        left :-13.0rem;
+        color: #ffffff;
+      }
+       
+       .icones{
+        position: relative;
+        top: 2rem;
+        left: -7rem;
+       }
+      
+       .border_{
+        position: absolute;
+        top: 19rem;
+        left: -2.8rem;
+       }
+      
+       .footCopright{
+        position: absolute;
+        top: 48.8rem;
+        width: 100%;
+        height: 3.6cm;
+        background-color: rgba(40, 37, 37, 0.921);
+        font-size: 18px;
+        padding-top: 1.5rem;
+        color: rgb(212, 205, 205);
+       }
+
+
+                
+}
+
+
