@@ -1,0 +1,67 @@
+$color-1: rgb(44, 187, 44);
+$font-size:40px;
+$color_2: rgb(35, 34, 34);
+
+*{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(227, 216, 201);
+}
+
+html::-webkit-scrollbar {
+    background-color: rgba(242, 255, 255, 0.966);
+    width: 10px;
+    scrollbar-width: thin;
+  }
+    
+  ::-webkit-scrollbar-thumb {
+  background-color: rgba(53, 44, 44, 0.555);
+  height: 6px;
+  width: 6px;
+  border-radius: 10px;
+  }
+  
+  
+   body {
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+  @mixin border($height, $width, $color, $left, $top){
+      width: $width;
+      height: $height;
+      background-color: $color;
+      position: absolute;
+      top: $top;
+      left: $left;
+  }
+  
+  @mixin input($width,$padding, $border-radius,$t, $style, $top, $left){
+       padding: $padding;
+       border-radius:$border-radius ;
+       border: $t $style;
+       width: $width;
+       position: absolute;
+       top: $top;
+       left: $left;
+  }
+
+  @mixin div($width, $height, $left, $top, $color){
+    width: $width;
+    height: $height;
+    position: absolute;
+    top: $top;
+    left: $left;
+    border-radius:4px;
+    background-color: $color;
+  }
+
+  @mixin div_img($width, $height, $left, $top){
+    width: $width;
+    height: $height;
+    position: absolute;
+    top: $top;
+    left: $left;
+    border-radius:4px;
+  }
+
+
