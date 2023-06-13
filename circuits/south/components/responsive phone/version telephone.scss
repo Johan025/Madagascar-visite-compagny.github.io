@@ -1,0 +1,1491 @@
+
+@media screen and (max-width: 409px) and (min-width: 371px) {
+    header{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        height: 2cm;
+        background-color: #ffffff;
+
+          ul{
+            display: block;
+            z-index: 4;
+            position: absolute;
+            left: 8.1rem;
+            align-items: center;
+            justify-content: center;
+            top: -0rem;
+            padding-bottom: 14.5cm;
+
+             li{
+                margin: 29px;
+                }
+            }
+        }
+        
+        .logo{
+        position: fixed;
+        top: 1rem;
+        left: 3rem;
+        width: 3.6cm;
+        height: 1.7cm;
+        z-index: 6;
+        }
+        
+         
+        .header{
+          position :absolute;
+          top: 7.78rem;
+          transform: translateY(-140rem);
+          width: 100%;
+          height: 100vh;
+          background-color: #fffffff1;
+          z-index: 4;
+          transition : 1s;
+          }
+          
+          .versionAng{
+          margin: 7rem;
+          position: absolute;
+          top: 34rem;
+          left: 1.5rem;
+          }
+        
+          #ang{
+            cursor: pointer;
+            position: absolute;
+            top:0;
+          }
+          
+          .logoBurger i{
+          font-size: 36px;
+          position: absolute;
+          float: right; 
+          left: 40rem;
+          top: 1.5rem;
+          border-radius: 50%;
+          padding: 7px;
+          border: 1.5px solid black;
+          z-index: -4;
+          color:black;
+
+          &:hover{
+            border: 0px solid #1ed661;
+            background-color: #1ed640;
+          }
+          
+          }
+        
+         
+          .hideshow{
+            transform: translateY(-0.2rem);
+            transition: 0.5s;
+          }
+
+          // couverture
+
+          .couvertureSud img{
+            display: none;
+          }
+
+          .couvertureSud_responsive img{
+            display: block;
+            position :absolute;
+           top: 0rem;
+           width: 100%;
+           height: 58rem;
+           }
+
+
+          //  titre_sud
+
+          .title_south{
+            font-size: 42px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 800;
+            position: absolute;
+            top: 64rem;
+            color: rgb(6, 28, 70);
+            left: 5rem;
+        }
+        
+        .sud_contain .desc{
+             position: absolute;
+             width: 80%;
+             top: 73rem;
+             left: 4rem;
+             font-size: 17px;
+             color: rgb(93, 93, 97);
+        }
+
+      //  classic_sud
+        .classic {
+          position: absolute;
+          top: 154.5rem;
+          width: 100%;
+        
+           h1{
+            font-size: 28px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 700;
+            position: absolute;
+            top: 4rem;
+            color: rgb(6, 70, 26);
+            left: 3rem;
+           }
+        
+           .day1{
+            position: absolute;
+            top: -12rem;
+            border-radius: 3px;
+            left: 1rem;
+            width: 8.5cm;
+            height: 13.55cm;
+            text-align: center;
+              .contain{
+               @include div(104%, 5.6cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                   h1{
+                     font-size: 25px;
+                     margin-left: -1rem;
+                     color: rgb(59, 36, 3);
+                     margin-top: -2rem;
+                     font-weight: 560;
+                     z-index: 3;
+                     // color:
+                   }
+        
+                  p{
+                   font-size: 19px;
+                   position: absolute;
+                   top: 7rem;
+                   color: rgb(46, 43, 43);
+                   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  }
+              }
+            }
+        
+              .day2{
+                position: absolute;
+                top: 15rem;
+                text-align: center;
+                border-radius: 3px;
+                left: 1rem;
+                width: 8.5cm;
+                height: 13.55cm;
+                  .contain{
+                   @include div(104%, 8.6cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                   h1{
+                    font-size: 25px;
+                    margin-left: -1rem;
+                    color: rgb(59, 36, 3);
+                    margin-top: -2rem;
+                    font-weight: 560;
+                    z-index: 3;
+                    // color:
+                  }
+       
+            
+                      p{
+                       font-size: 20px;
+                       position: absolute;
+                       left: 0rem;
+                       top: 7rem;
+                       color: rgb(46, 43, 43);
+                       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                      }
+                  }
+        }
+        
+        .day3{
+          position: absolute;
+          top: 55rem;
+          text-align: center;
+          border-radius: 3px;
+          left: 1rem;
+          width: 8.5cm;
+          height: 13.55cm;
+            .contain{
+             @include div(104%, 11.9cm, 1.5rem, 30rem, rgb(215, 141, 3));
+             h1{
+              font-size: 20px;
+              margin-left: -1rem;
+              color: rgb(59, 36, 3);
+              margin-top: -2rem;
+              font-weight: 560;
+              z-index: 3;
+              // color:
+            }
+ 
+        
+                p{
+                 font-size: 20px;
+                 position: absolute;
+                 top: 7rem;
+                 color: rgb(46, 43, 43);
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+        
+        .day4{
+          position: absolute;
+          top: 108rem;
+          border-radius: 3px;
+          left: 1rem;
+          width: 8.5cm;
+          height: 13.55cm;
+          text-align: center;
+
+            .contain{
+             @include div(104%, 8.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+             h1{
+              font-size: 22px;
+              margin-left: -1rem;
+              color: rgb(59, 36, 3);
+              margin-top: -2rem;
+              font-weight: 560;
+              z-index: 3;
+              // color:
+            }
+        
+                p{
+                 font-size: 20px;
+                 position: absolute;
+                 top: 7rem;
+                 color: rgb(46, 43, 43);
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+        
+        .day5{
+          position: absolute;
+          top: 148rem;
+          border-radius: 3px;
+          left: 1rem;
+          width: 8.5cm;
+          text-align: center;
+          height: 13.55cm;
+            .contain{
+             @include div(104%, 11.7cm, 1.5rem, 30rem, rgb(215, 141, 3));
+             h1{
+              font-size: 20px;
+              margin-left: -1rem;
+              color: rgb(59, 36, 3);
+              margin-top: -2rem;
+              font-weight: 560;
+              z-index: 3;
+              // color:
+            }
+        
+                p{
+                 font-size: 20px;
+                 position: absolute;
+                 top: 7rem;
+                 color: rgb(46, 43, 43);
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+        
+        
+        .day6{
+          position: absolute;
+          top: 201rem;
+          left: 1rem;
+          width: 8.5cm;
+          text-align: center;
+          height: 13.55cm;
+            .contain{
+             @include div(104%, 12.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+             h1{
+              font-size: 20px;
+              margin-left: -1rem;
+              color: rgb(59, 36, 3);
+              margin-top: -2rem;
+              font-weight: 560;
+              z-index: 3;
+              // color:
+            }
+        
+                p{
+                 font-size: 20px;
+                 position: absolute;
+                 top: 7rem;
+                 color: rgb(46, 43, 43);
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+        
+        .day7{
+          position: absolute;
+          top: 257rem;
+          border-radius: 3px;
+          left: 1rem;
+          width: 8.5cm;
+          text-align: center;
+          height: 13.55cm;
+            .contain{
+             @include div(104%, 11.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+             h1{
+              font-size: 20px;
+              margin-left: -1rem;
+              color: rgb(59, 36, 3);
+              margin-top: -2rem;
+              font-weight: 560;
+              z-index: 3;
+              // color:
+            }
+                p{
+                 font-size: 20px;
+                 position: absolute;
+                 top: 7rem;
+                 color: rgb(46, 43, 43);
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+        
+        .day8{
+          position: absolute;
+          top: 310rem;
+          text-align: center;
+          border-radius: 3px;
+          left: 1rem;
+          width: 8.5cm;
+          height: 13.55cm;
+            .contain{
+             @include div(104%, 7cm, 1.5rem, 30rem, rgb(215, 141, 3));
+             h1{
+              font-size: 20px;
+              margin-left: -1rem;
+              color: rgb(59, 36, 3);
+              margin-top: -2rem;
+              font-weight: 560;
+              z-index: 3;
+              // color:
+            }
+        
+                p{
+                 font-size: 20px;
+                 position: absolute;
+                 top: 7rem;
+                 color: rgb(46, 43, 43);
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+        
+        
+        .day9-10{
+          position: absolute;
+          top: 348rem;
+          border-radius: 3px;
+          left: 1rem;
+          width: 8.5cm;
+          text-align: center;
+          height: 13.55cm;
+            .contain{
+             @include div(104%, 3.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+             h1{
+              font-size: 20px;
+              margin-left: -1rem;
+              color: rgb(59, 36, 3);
+              margin-top: -2rem;
+              font-weight: 560;
+              z-index: 3;
+              // color:
+            }
+        
+                p{
+                 font-size: 20px;
+                 position: absolute;
+                 top: 7rem;
+                 color: rgb(46, 43, 43);
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+        
+        
+        .day11{
+          position: absolute;
+          top: 368rem;
+          border-radius: 3px;
+          text-align: center;
+          left: 1rem;
+          width: 8.5cm;
+          height: 13.55cm;
+            .contain{
+             @include div(104%, 3.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+             h1{
+              font-size: 20px;
+              margin-left: -1rem;
+              color: rgb(59, 36, 3);
+              margin-top: -2rem;
+              font-weight: 560;
+              z-index: 3;
+              // color:
+            }
+        
+                p{
+                 font-size: 20px;
+                 position: absolute;
+                 top: 7rem;
+                 color: rgb(46, 43, 43);
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+        
+        .day12{
+          position: absolute;
+          top: 386rem;
+          border-radius: 3px;
+          left: 1rem;
+          width: 8.5cm;
+          height: 13.55cm;
+          text-align: center;
+            .contain{
+             @include div(104%, 7.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+             h1{
+              font-size: 20px;
+              margin-left: -1rem;
+              color: rgb(59, 36, 3);
+              margin-top: -2rem;
+              font-weight: 560;
+              z-index: 3;
+              // color:
+            }
+        
+                p{
+                 font-size: 20px;
+                 position: absolute;
+                 top: 7rem;
+                 color: rgb(46, 43, 43);
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+        
+        
+        }
+        
+        
+        // sud combined paagalans
+        
+        .combines-tour {
+          position: absolute;
+          top: 599rem;
+          width: 100%;
+         
+        
+           h1{
+            font-size: 21px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 700;
+            position: absolute;
+            top: 4rem;
+            color: rgb(6, 70, 26);
+            left: 1rem;
+            text-align: center;
+        
+             span{
+                 position: absolute;
+                 left: 5rem;
+                 top: 6rem;
+                 color: rgb(6, 70, 26);
+             }
+           }
+            
+        .day1{
+            position: absolute;
+            top: -12rem;
+            border-radius: 3px;
+            left: 2rem;
+            width: 8.5cm;
+            height: 13.55cm;
+
+              .contain{
+                @include div(102%, 5.6cm, 1rem, 30rem, rgb(215, 141, 3));
+                    h1{
+                      font-size: 20px;
+                      margin-left: 3rem;
+                      color: rgb(59, 36, 3);
+                      margin-top: -2rem;
+                      font-weight: 560;
+                      z-index: 3;
+                                 // color:
+                        }
+                    
+                        p{
+                        font-size: 20px;
+                        position: absolute;
+                        top: 7rem;
+                        color: rgb(46, 43, 43);
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                              }
+                          }
+                        }
+                    
+      .day2{
+                            position: absolute;
+                            top: 14rem;
+                            border-radius: 3px;
+                            left: 1rem;
+                            width: 8.5cm;
+                            height: 13.55cm;
+                              .contain{
+                               @include div(104.5%, 8.8cm, 1.4rem, 30rem, rgb(215, 141, 3));
+                                   h1{
+                                    font-size: 20px;
+                                    margin-left: 4rem;
+                                    color: rgb(59, 36, 3);
+                                    margin-top: -2rem;
+                                    font-weight: 560;
+                                    z-index: 3;
+                                     // color:
+                                   }
+                        
+                                  p{
+                                   font-size: 20px;
+                                   position: absolute;
+                                   top: 7rem;
+                                   color: rgb(46, 43, 43);
+                                   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                  }
+                              }
+                    }
+                    
+      .day3{
+                      position: absolute;
+                      top: 57rem;
+                      border-radius: 3px;
+                      left: 1rem;
+                      width: 8.5cm;
+                      height: 13.55cm;
+                        .contain{
+                         @include div(104%, 6.5cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                             h1{
+                              font-size: 18px;
+                              margin-left: 0rem;
+                              color: rgb(59, 36, 3);
+                              margin-top: -2rem;
+                              font-weight: 560;
+                              z-index: 3;
+                             }
+                    
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                    }
+                    
+                    .day4{
+                      position: absolute;
+                      top: 90rem;
+                      border-radius: 3px;
+                      left: 1rem;
+                      width: 8.5cm;
+                      height: 13.55cm;
+
+                        .contain{
+                          @include div(104%, 5.7cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                             h1{
+                              font-size: 20px;
+                              margin-left: 4rem;
+                              color: rgb(59, 36, 3);
+                              margin-top: -2rem;
+                              font-weight: 560;
+                              z-index: 3;
+                             }
+                    
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                    }
+                    
+                    .day5{
+                      position: absolute;
+                      top: 120rem;
+                      border-radius: 3px;
+                     left: 1rem;
+                      width: 8.5cm;
+                      height: 13.55cm;
+                        .contain{
+                          @include div(104%, 7.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                             h1{
+                              font-size: 20px;
+                              margin-left: 4rem;
+                              color: rgb(59, 36, 3);
+                              margin-top: -2rem;
+                              font-weight: 560;
+                              z-index: 3;
+                             }
+
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                    }
+                    
+                    
+                    .day6{
+                      position: absolute;
+                      top: 156.6rem;
+                      border-radius: 3px;
+                      left: 1rem;
+                      width: 8.5cm;
+                      height: 13.55cm;
+                        .contain{
+                          @include div(104%, 5.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                             h1{
+                              font-size: 20px;
+                              margin-left: 4rem;
+                              color: rgb(59, 36, 3);
+                              margin-top: -2rem;
+                              font-weight: 560;
+                              z-index: 3;
+                             }
+                    
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                    }
+                    
+                    .day7{
+                      position: absolute;
+                      top: 189rem;
+                      border-radius: 3px;
+                      left: 1rem;
+                      width: 8.5cm;
+                      height: 13.55cm;
+                        .contain{
+                          @include div(104%, 8.1cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                          h1{
+                           font-size: 20px;
+                           margin-left: 4rem;
+                           color: rgb(59, 36, 3);
+                           margin-top: -2rem;
+                           font-weight: 560;
+                           z-index: 3;
+                          }
+                    
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                    }
+                    
+                    .day8{
+                      position: absolute;
+                      top: 227rem;
+                      border-radius: 3px;
+                      left: 1rem;
+                      width: 8.5cm;
+                      height: 13.55cm;
+                        .contain{
+                          @include div(104%, 12.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                          h1{
+                           font-size: 20px;
+                           margin-left: 4rem;
+                           color: rgb(59, 36, 3);
+                           margin-top: -2rem;
+                           font-weight: 560;
+                           z-index: 3;
+                          }
+                    
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                    }
+                    
+                    
+                    .day9{
+                      position: absolute;
+                      top: 285rem;
+                      border-radius: 3px;
+                      left: 1rem;
+                      width: 8.5cm;
+                      height: 13.55cm;
+                        .contain{
+                          @include div(104%, 13.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                             h1{
+                              font-size: 20px;
+                              margin-left: 4rem;
+                              color: rgb(59, 36, 3);
+                              margin-top: -2rem;
+                              font-weight: 560;
+                              z-index: 3;
+                             }
+                    
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                    }
+                    
+                    
+                    .day10{
+                      position: absolute;
+                      top: 345rem;
+                      border-radius: 3px;
+                      left: 1rem;
+                      width: 8.5cm;
+                      height: 13.55cm;
+                        .contain{
+                          @include div(104%, 10.5cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                          h1{
+                           font-size: 20px;
+                           margin-left: 4rem;
+                           color: rgb(59, 36, 3);
+                           margin-top: -2rem;
+                           font-weight: 560;
+                           z-index: 3;
+                          }
+                 
+                    
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                    }
+                    
+                    .day11{
+                      position: absolute;
+                      top: 396rem;
+                      border-radius: 3px;
+                      left: 1rem;
+                      width: 8.5cm;
+                      height: 13.55cm;
+                        .contain{
+                          @include div(104%, 6.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                             h1{
+                              font-size: 20px;
+                              margin-left: 4rem;
+                              color: rgb(59, 36, 3);
+                              margin-top: -2rem;
+                              font-weight: 560;
+                              z-index: 3;
+                             }
+                    
+                    
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                    }
+                    
+                    .day12-13{
+                      position: absolute;
+                      top: 433.5rem;
+                      border-radius: 3px;
+                      left: 1rem;
+                      width: 8.5cm;
+                      height: 13.55cm;
+                        .contain{
+                          @include div(104%, 9.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                             h1{
+                              font-size: 20px;
+                              margin-left: 4rem;
+                              color: rgb(59, 36, 3);
+                              margin-top: -2rem;
+                              font-weight: 560;
+                              z-index: 3;
+                             }
+                    
+                    
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                    }
+                    
+                    .day14{
+                      position: absolute;
+                      top: 478.4rem;
+                      border-radius: 3px;
+                      left: 1rem;
+                      width: 8.5cm;
+                      height: 13.55cm;
+                        .contain{
+                          @include div(104%, 4.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                             h1{
+                              font-size: 20px;
+                              margin-left: 4rem;
+                              color: rgb(59, 36, 3);
+                              margin-top: -2rem;
+                              font-weight: 560;
+                              z-index: 3;
+                             }
+                    
+                    
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                    }
+                    
+                    .day15{
+                      position: absolute;
+                      top: 507rem;
+                      border-radius: 3px;
+                      left: 1rem;
+                      width: 8.5cm;
+                      height: 13.55cm;
+                        .contain{
+                          @include div(104%, 7.2cm, 1.5rem, 30rem, rgb(215, 141, 3));
+                          h1{
+                           font-size: 22px;
+                           margin-left: 4rem;
+                           color: rgb(59, 36, 3);
+                           margin-top: -2rem;
+                           font-weight: 560;
+                           z-index: 3;
+                          }
+                 
+                    
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                    }
+                    
+                    }
+                     
+                    .titre_adventure{
+                      font-size: 21px;
+                      position: absolute;
+                      top: 1171rem;
+                      color: rgb(6, 70, 26);
+                      left: 1.5rem;
+                      text-align: center;
+                      
+                  
+                      span{
+                          position: absolute;
+                          text-align: center;
+                          left: 3.5rem;
+                          top: 4.8rem;
+                          color: rgb(6, 70, 26);
+                      }
+                  }
+                  
+                  .adventures-tours{
+                  position: absolute;
+                    top: 1060rem;
+                    width: 100%;
+                    
+                    #day1{
+                      position: absolute;
+                      top: 100rem;
+                      border-radius: 3px;
+                      left: 3rem;
+                      width: 9cm;
+                      height: 13.55cm;
+                      text-align: center;
+                        .contain{
+                         @include div(97%, 5.2cm, 0rem, 30rem, rgb(215, 141, 3));
+                             h1{
+                               font-size: 20px;
+                               margin-left: 3rem;
+                               color: rgb(59, 36, 3);
+                               font-weight: 560;
+                               // color:
+                             }
+                  
+                            p{
+                             font-size: 20px;
+                             position: absolute;
+                             top: 7rem;
+                             color: rgb(46, 43, 43);
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            }
+                        }
+                  }
+                  
+                  #day2{
+                    position: absolute;
+                    top: 130rem;
+                    border-radius: 3px;
+                    left: 3rem;
+                    width: 8.5cm;
+                    height: 13.55cm;
+                    text-align: center;
+
+                    .contain{
+                      @include div(104%, 8.2cm, 0rem, 30rem, rgb(215, 141, 3));
+                          h1{
+                            font-size: 20px;
+                            margin-left: 3rem;
+                            color: rgb(59, 36, 3);
+                            font-weight: 560;
+                            // color:
+                          }
+               
+                         p{
+                          font-size: 20px;
+                          position: absolute;
+                          top: 7rem;
+                          color: rgb(46, 43, 43);
+                          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                         }
+                     }
+                  }
+                  
+                  #day3{
+                   position: absolute;
+                   top: 176.5rem;
+                   height: 13.55cm;
+                   border-radius: 3px;
+                   left: 3rem;
+                   width: 8.5cm;
+                   height: 13.55cm;
+                   text-align: center;
+
+                   .contain{
+                    @include div(104%, 12.2cm, 0rem, 30rem, rgb(215, 141, 3));
+                        h1{
+                          font-size: 20px;
+                          margin-left: 3rem;
+                          color: rgb(59, 36, 3);
+                          font-weight: 560;
+                          // color:
+                        }
+             
+                       p{
+                        font-size: 20px;
+                        position: absolute;
+                        top: 7rem;
+                        color: rgb(46, 43, 43);
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                       }
+                   }
+                  
+                  }
+                  
+                  #day4{
+                   position: absolute;
+                   top: 235rem;
+                   border-radius: 3px;
+                   left: 3rem;
+                   width: 8.5cm;
+                    height: 13.55cm;
+                    text-align: center;
+                   .contain{
+                    @include div(104%, 8.2cm, 0rem, 30rem, rgb(215, 141, 3));
+                     h1{
+                      font-size: 20px;
+                      margin-left: 3rem;
+                      color: rgb(59, 36, 3);
+                      font-weight: 560;
+                      // color:
+                    }
+
+                    p{
+                      font-size: 20px;
+                      position: absolute;
+                      top: 7rem;
+                      color: rgb(46, 43, 43);
+                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     }
+                       }
+                  }
+                  
+                  #day5{
+                   position: absolute;
+                   top: 275rem;
+                   border-radius: 3px;
+                   left: 3rem;
+                   width: 8.5cm;
+                   height: 13.55cm;
+                   text-align: center;
+                  
+                   .contain{
+                    @include div(104%, 12.6cm, 0rem, 30rem, rgb(215, 141, 3));
+
+                       h1{
+                        font-size: 20px;
+                       }
+                  
+                       p{
+                        font-size: 20px;
+                        position: absolute;
+                        top: 7rem;
+                        color: rgb(46, 43, 43);
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                       }   
+                   }
+                  }
+                  
+                  
+                  #day6{
+                   position: absolute;
+                   top: 332rem;
+                   border-radius: 3px;
+                  left: 3rem;
+                  width: 8.5cm;
+                  height: 13.55cm;
+                  text-align: center;
+                  
+                   .contain{
+                    @include div(104%, 11.2cm, 0rem, 30rem, rgb(215, 141, 3));
+                     h1{
+                       font-size: 18px;
+                       margin-left: 1rem;
+                       color: rgb(59, 36, 3);
+                       font-weight: 560;
+                       // color:
+                     }
+
+                     p{
+                      font-size: 20px;
+                      position: absolute;
+                      top: 7rem;
+                      color: rgb(46, 43, 43);
+                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     }
+                   }
+                  }
+                  
+                  #day7{
+                   position: absolute;
+                   top: 387.5rem;
+                   border-radius: 3px;
+                   left: 3rem;
+                   width: 8.5cm;
+                   height: 13.55cm;
+                   text-align: center;
+                  
+                   .contain{
+                    @include div(104%, 7.2cm, 0rem, 30rem, rgb(215, 141, 3));
+                     h1{
+                       font-size: 17px;
+                       margin-left: 1rem;
+                       color: rgb(59, 36, 3);
+                       font-weight: 560;
+                       // color:
+                     }
+
+                     p{
+                      font-size: 20px;
+                      position: absolute;
+                      top: 7rem;
+                      color: rgb(46, 43, 43);
+                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     }
+                   }
+                  }
+                  
+                  #day8{
+                   position: absolute;
+                   top: 427rem;
+                   border-radius: 3px;
+                   left: 3rem;
+                   width: 8.5cm;
+                   height: 13.55cm;
+                   text-align: center;
+                  
+                   .contain{
+                    @include div(104%, 7.2cm, 0rem, 30rem, rgb(215, 141, 3));
+                     h1{
+                       font-size: 21px;
+                       margin-left: 3rem;
+                       color: rgb(59, 36, 3);
+                       font-weight: 560;
+                       // color:
+                     }
+
+                     p{
+                      font-size: 20px;
+                      position: absolute;
+                      top: 7rem;
+                      color: rgb(46, 43, 43);
+                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     }
+                   }
+                  }
+                  
+                  
+
+                  #day9{
+                   position: absolute;
+                   top: 467.5rem;
+                   border-radius: 3px;
+                   left: 3rem;
+                   width: 8.5cm;
+                   height: 13.55cm;
+                   text-align: center;
+                  
+                   .contain{
+                    @include div(104%, 8.3cm, 0rem, 30rem, rgb(215, 141, 3));
+                     h1{
+                       font-size: 21px;
+                       margin-left: 3rem;
+                       color: rgb(59, 36, 3);
+                       font-weight: 560;
+                       // color:
+                     }
+
+                     p{
+                      font-size: 20px;
+                      position: absolute;
+                      top: 7rem;
+                      color: rgb(46, 43, 43);
+                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     }
+                   }
+                  }
+                  
+                  
+                  #day10{
+                   position: absolute;
+                   top: 512rem;
+                   border-radius: 3px;
+                   left: 3rem;
+                   width: 8.5cm;
+                   height: 13.55cm;
+                   text-align: center;
+                  
+                   .contain{
+                    @include div(104%, 7.2cm, 0rem, 30rem, rgb(215, 141, 3));
+                     h1{
+                       font-size: 21px;
+                       margin-left: 3rem;
+                       color: rgb(59, 36, 3);
+                       font-weight: 560;
+                       // color:
+                     }
+
+                     p{
+                      font-size: 20px;
+                      position: absolute;
+                      top: 7rem;
+                      color: rgb(46, 43, 43);
+                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     }
+                   }
+                  }
+                  
+                  #day11{
+                   position: absolute;
+                   top: 550rem;
+                   border-radius: 3px;
+                   left: 3rem;
+                   width: 8.5cm;
+                   height: 13.55cm;
+                   text-align: center;
+                  
+                   .contain{
+                    @include div(104%, 10.7cm, 0rem, 30rem, rgb(215, 141, 3));
+                     h1{
+                       font-size: 21px;
+                       margin-left: 3rem;
+                       color: rgb(59, 36, 3);
+                       font-weight: 560;
+                       // color:
+                     }
+
+                     p{
+                      font-size: 20px;
+                      position: absolute;
+                      top: 7rem;
+                      color: rgb(46, 43, 43);
+                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     }
+                   }
+                  }
+                  
+                  #day12{
+                   position: absolute;
+                   top: 601rem;
+                   border-radius: 3px;
+                   text-align: center;
+                   left: 3rem;
+                   width: 8.5cm;
+                   height: 13.55cm;
+                   text-align: center;
+                  
+                   .contain{
+                    @include div(104%, 6.9cm, 0rem, 30rem, rgb(215, 141, 3));
+                     h1{
+                       font-size: 21px;
+                       margin-left: 3rem;
+                       color: rgb(59, 36, 3);
+                       font-weight: 560;
+                       // color:
+                     }
+
+                     p{
+                      font-size: 20px;
+                      position: absolute;
+                      top: 7rem;
+                      color: rgb(46, 43, 43);
+                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     }
+                   }
+                  }
+                  
+                  #day13-14{
+                   position: absolute;
+                   top: 640rem;
+                   border-radius: 3px;
+                   left: 3rem;
+                   width: 8.5cm;
+                   height: 13.55cm;
+                   text-align: center;
+                  
+                   .contain{
+                    @include div(104%, 10.2cm, 0rem, 30rem, rgb(215, 141, 3));
+                     h1{
+                       font-size: 21px;
+                       margin-left: 3rem;
+                       color: rgb(59, 36, 3);
+                       font-weight: 560;
+                       // color:
+                     }
+
+                     p{
+                      font-size: 20px;
+                      position: absolute;
+                      top: 7rem;
+                      color: rgb(46, 43, 43);
+                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     }
+                   }
+                  }
+                  
+                  #day15{
+                   position: absolute;
+                   top: 692.4rem;
+                   border-radius: 3px;
+                  left: 3rem;
+                    width: 8.5cm;
+                  height: 13.55cm;
+                  text-align: center;
+                  
+                   .contain{
+                    @include div(104%, 5.2cm, 0rem, 30rem, rgb(215, 141, 3));
+                     h1{
+                       font-size: 20px;
+                       margin-left: 2rem;
+                       color: rgb(59, 36, 3);
+                       font-weight: 560;
+                       // color:
+                     }
+
+                     p{
+                      font-size: 20px;
+                      position: absolute;
+                      top: 7rem;
+                      color: rgb(46, 43, 43);
+                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     }
+                   }
+                  }
+                  
+                  #day16{
+                   position: absolute;
+                   top: 725rem;
+                   border-radius: 3px;
+                   left: 3rem;
+                   width: 8.5cm;
+                   height: 13.55cm;
+                   text-align: center;
+                  
+                   .contain{
+                    @include div(104%, 7.2cm, 0rem, 30rem, rgb(215, 141, 3));
+                     h1{
+                       font-size: 21px;
+                       margin-left: 3rem;
+                       color: rgb(59, 36, 3);
+                       font-weight: 560;
+                       // color:
+                     }
+
+                     p{
+                      font-size: 20px;
+                      position: absolute;
+                      top: 7rem;
+                      color: rgb(46, 43, 43);
+                      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                     }
+                   }
+                  }
+                  
+                  
+                  }
+                  .anakao{
+                      position: absolute;
+                      top: 1851rem;
+                      width: 100%;
+                  
+                       h1{
+                         font-size: 23px;
+                         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                         font-weight: 800;
+                         position: absolute;
+                         color: rgb(6, 28, 70);
+                         left: 3.6rem;
+                         width: 35rem;
+
+
+                          span{
+                            position: absolute;
+                            top: 4rem;
+                            left: 3rem;
+                            z-index: 4;
+                            color: rgb(6, 28, 70);
+                          }
+                       }
+
+                       
+                  
+                       .border_anakao{
+                          @include border(8px, 1.5cm, rgb(163, 163, 24), 15rem, 11.2rem);
+                       }
+                  
+                       p{
+                         font-size: 20px;
+                         position: absolute;
+                         top: 18.4rem;
+                         left: 2rem;
+                         color: rgb(93, 93, 97);
+                         width: 35rem;
+                  
+                          span{
+                           color: rgb(43, 41, 41);
+                           font-weight: 700;
+                           position: absolute;
+                           top: -1rem;
+                          }
+                       }
+                  
+                  
+                  }
+                  
+                  .zafimaniry{
+                   position: absolute;
+                   top: 1910rem;
+                   width: 100%;
+                   
+                  
+                    h1{
+                      font-size: 21px;
+                      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                      font-weight: 800;
+                      position: absolute;
+                      color: rgb(6, 28, 70);
+                      left: 5rem;
+                      width: 34rem;
+
+
+                      span{
+                        position: absolute;
+                        top: 4rem;
+                        left: 2rem;
+                        z-index: 4;
+                        color: rgb(6, 28, 70);
+                      }
+                    }
+                  
+                    .border_anakao{
+                       @include border(8px, 1.5cm, rgb(163, 163, 24), 14rem, 12rem);
+                    }
+                  
+                    p{
+                      font-size: 20px;
+                      position: absolute;
+                      top: 15.4rem;
+                      left: 1.5rem;
+                      color: rgb(93, 93, 97);
+                      width: 35rem;
+                  
+                       span{
+                        color: rgb(43, 41, 41);
+                        font-weight: 700;
+                        position: absolute;
+                        top: -1rem;
+                       }
+                    }
+                  
+                  
+                  }
+                  
+                  
+        
+        
+        
+      .border_vertical1{
+          @include border(395rem, 5.8px,rgb(215, 141, 3), 20rem, 187rem);
+      }
+      
+      .border_vertical2{
+          @include border(520rem, 5.8px, rgb(215, 141, 3), 20rem, 625rem);
+      }
+      
+      .border_vertical3{
+          @include border(630rem, 5.8px, rgb(215, 141, 3), 20rem, 1190rem);
+      } 
+          
+        
+        
+#footer{
+  display: none;
+}
+    }
+
+    

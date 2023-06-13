@@ -1,0 +1,11 @@
+.border_vertical1{
+    @include border(330rem, 5.4px,rgb(215, 141, 3), 65rem, 155rem);
+}
+
+.border_vertical2{
+    @include border(410rem, 5.4px, rgb(215, 141, 3), 65rem, 530rem);
+}
+
+.border_vertical3{
+    @include border(430rem, 5.4px, rgb(215, 141, 3), 65rem, 980rem);
+}
